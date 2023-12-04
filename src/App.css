@@ -1,0 +1,105 @@
+/* Définition des styles pour la classe .container */
+.container {
+  text-align: center; /* Alignement du contenu au centre horizontalement */
+  padding-top: 50px; /* Espacement supérieur de 50 pixels */
+}
+
+/* Définition des styles pour la classe .card */
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  border-radius: 8px; /* Bordure arrondie */
+  transition: transform 0.3s; /* Transition fluide de l'échelle sur 0.3 seconde */
+}
+
+.card:hover {
+  transform: scale(1.02); /* Agrandissement de la carte au survol */
+}
+
+/* Définition des styles pour l'élément avec la classe .card-img-top */
+.card-img-top {
+  border-radius: 8px 8px 0 0; /* Bordure arrondie en haut */
+}
+
+/* Définition des styles pour la classe .card-title */
+.card-title {
+  font-size: 24px; /* Taille de police de 24 pixels */
+  font-weight: bold; /* Texte en gras */
+  color: #333; /* Couleur de texte sombre */
+  margin-bottom: 0; /* Pas de marge inférieure */
+}
+
+/* Définition des styles pour la classe .card-text */
+.card-text {
+  font-size: 16px; /* Taille de police de 16 pixels */
+  margin-bottom: 12px; /* Marge inférieure de 12 pixels */
+}
+
+/* Définition des styles pour les boutons */
+.btn {
+  font-weight: bold; /* Texte en gras */
+  padding: 12px 24px; /* Rembourrage intérieur de 12 pixels en haut et en bas, 24 pixels à gauche et à droite */
+  border-radius: 8px; /* Bordure arrondie */
+  transition: background-color 0.3s, border-color 0.3s; /* Transition fluide de la couleur de fond et de la couleur de bordure sur 0.3 seconde */
+}
+
+/* Définition des styles pour le bouton avec la classe .btn-primary */
+.btn-primary {
+  background-color: #007bff; /* Couleur de fond bleue */
+  border-color: #007bff; /* Couleur de bordure bleue */
+  color: white; /* Texte en blanc */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Couleur de fond bleue plus foncée au survol */
+  border-color: #0056b3; /* Couleur de bordure bleue plus foncée au survol */
+}
+
+/* Définition des styles pour le bouton avec la classe .btn-danger */
+.btn-danger {
+  background-color: #dc3545; /* Couleur de fond rouge */
+  border-color: #dc3545; /* Couleur de bordure rouge */
+  color: white; /* Texte en blanc */
+}
+
+.btn-danger:hover {
+  background-color: #a71d29; /* Couleur de fond rouge plus foncée au survol */
+  border-color: #a71d29; /* Couleur de bordure rouge plus foncée au survol */
+}
+
+/* Définition des styles pour la classe .chronometer */
+.chronometer {
+  background-color: #f8f9fa; /* Couleur de fond gris clair */
+  border: 1px solid #dee2e6; /* Bordure de 1 pixel solide */
+  border-radius: 4px; /* Bordure arrondie */
+  padding: 10px; /* Espacement interne de 10 pixels */
+}
+
+/* Définition des styles pour la classe .clock */
+.clock {
+  font-size: 24px; /* Taille de police de 24 pixels */
+  font-weight: bold; /* Texte en gras */
+  color: #343a40; /* Couleur de texte sombre */
+}
+
+/* Définition des styles pour la classe .mt-3 */
+.mt-3 {
+  margin-top: 1rem !important; /* Marge supérieure de 1 rem (unité relative) avec une importance élevée (override) */
+}
+
+/* Définition des styles pour la classe .text-center */
+.text-center {
+  text-align: center !important; /* Alignement du texte au centre avec une importance élevée (override) */
+}
+
+/* Définition des styles pour la classe .text-muted */
+.text-muted {
+  color: #6c757d !important; /* Couleur de texte grise foncée avec une importance élevée (override) */
+}
+
+/* Définition des styles pour les écrans de petite taille */
+
+@media (max-width: 576px) {
+  .col-md-6.offset-md-3 {
+    padding: 0; /* Pas de rembourrage pour les colonnes de taille moyenne avec un décalage de moitié */
+  }
+}
